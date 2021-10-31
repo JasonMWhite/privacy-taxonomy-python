@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "1eb36ac1022909c89a1f425b06a1b651bb8faeff29c913d402a8df98ba8fb3a6"
+            "sha256": "fd3c7beb5063affaee9aa6c8a3090e864681267a90e4d4f8903aea9bbde9e364"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -83,6 +83,13 @@
             ],
             "version": "==0.6.1"
         },
+        "owlready2": {
+            "hashes": [
+                "sha256:93f798ea16b8ca08a09922678ca680b61443f1d29ba30475a491610068a68ea0"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==0.35"
+        },
         "packaging": {
             "hashes": [
                 "sha256:096d689d78ca690e4cd8a89568ba06d07ca097e3306a4381635073ca91479966",
@@ -106,6 +113,10 @@
             ],
             "markers": "python_version >= '3.6'",
             "version": "==1.0.0"
+        },
+        "privacy-taxonmy": {
+            "editable": true,
+            "path": "."
         },
         "py": {
             "hashes": [
