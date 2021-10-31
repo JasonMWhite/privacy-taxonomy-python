@@ -4,9 +4,7 @@ VERSION = '0.0.1'
 DESCRIPTION = 'Privacy Taxonomy'
 LONG_DESCRIPTION = "Python interface to Ethyca's Privacy Taxonomy"
 
-# Setting up
 setup(
-       # the name must match the folder name 'verysimplemodule'
         name="privacy_taxonmy", 
         version=VERSION,
         author="Jason White",
@@ -16,9 +14,7 @@ setup(
         packages=find_packages(),
         install_requires=[
             'owlready2'
-        ], # add any additional packages that 
-        # needs to be installed along with your package. Eg: 'caer'
-        
+        ],        
         keywords=['python', 'privacy'],
         classifiers= [
             "Development Status :: 3 - Alpha",
