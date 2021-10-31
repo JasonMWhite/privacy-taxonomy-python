@@ -41,7 +41,11 @@ jobs:
           paths:
             - ".venv"
             - "/usr/local/bin"
-            - "/usr/local/lib/python3.6/site-packages"
+            - "/usr/local/lib/python3.10/site-packages"
+      - run:
+          name: Run linter
+          command: |
+            pipenv run pylint privacy_taxonomy tests
       - run:
           name: Run tests
           command: |
